@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_search"
+          android:title="Search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.widget.SearchView"/>
+    <item android:id="@+id/menu1"
+          android:icon="@android:drawable/ic_menu_add"
+          android:title="Menu1"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu2"
+          android:icon="@android:drawable/ic_menu_camera"
+          android:title="Menu2"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu3"
+          android:icon="@android:drawable/ic_menu_call"
+          android:title="Menu3"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu4"
+          android:icon="@android:drawable/ic_menu_day"
+          android:title="Menu4"/>
+    <item android:id="@+id/menu5"
+          android:icon="@android:drawable/ic_menu_compass"
+          android:title="Menu5"/>
+    <item android:id="@+id/menu6"
+          android:icon="@android:drawable/ic_menu_edit"
+          android:title="Menu6"/>
+    <item android:id="@+id/menu7"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="Menu7"/>
+</menu>
