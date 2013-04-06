@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pony_names">
+        <item>Twilight Sparkle</item>
+        <item>Applejack</item>
+        <item>Fluttershy</item>
+        <item>Rarity</item>
+        <item>Pinkie Pie</item>
+        <item>Rainbow Dash</item>
+    </string-array>
+    <array name="pony_photos">
+        <item>@drawable/twilight</item>
+        <item>@drawable/applejack</item>
+        <item>@drawable/fluttershy</item>
+        <item>@drawable/rarity</item>
+        <item>@drawable/pinkie</item>
+        <item>@drawable/rainbow</item>
+    </array>
+</resources>
