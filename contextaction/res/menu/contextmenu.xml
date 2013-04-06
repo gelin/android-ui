@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cool"
+          android:title="Cool!"
+          android:showAsAction="always"/>
+    <item android:id="@+id/cooler"
+          android:title="Cooler!"
+          android:showAsAction="always"/>
+    <item android:id="@+id/more_cooler"
+          android:title="Even more cooler!"
+          android:showAsAction="always"/>
+</menu>
