@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:key="checkbox"
+                        android:title="Checkbox"
+                        android:defaultValue="true"/>
+    <EditTextPreference android:key="text"
+                        android:title="Text"
+                        android:defaultValue=""/>
+    <ListPreference android:key="list"
+                    android:title="List"
+                    android:entries="@array/pony_names"
+                    android:entryValues="@array/pony_names"
+                    android:defaultValue="Pinkie Pie"/>
+    <SwitchPreference android:key="switch"
+                      android:title="Switch"
+                      android:defaultValue="true"/>
+</PreferenceScreen>
