@@ -1,15 +1,15 @@
-package ru.gelin.android.example.inputs;
+package ru.gelin.android.example.spinner;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Inputs extends Activity {
+public class SpinnerActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inputs);
+        setContentView(R.layout.spinner);
     }
 }

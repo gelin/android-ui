@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class List extends Activity {
+public class ListActivity extends Activity {
     /**
      * Called when the activity is first created.
      */

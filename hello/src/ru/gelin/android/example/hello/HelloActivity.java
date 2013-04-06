@@ -3,7 +3,7 @@ package ru.gelin.android.example.hello;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Hello extends Activity {
+public class HelloActivity extends Activity {
     /**
      * Called when the activity is first created.
      */

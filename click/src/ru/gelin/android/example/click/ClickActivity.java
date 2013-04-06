@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class Click extends Activity {
+public class ClickActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
@@ -16,7 +16,7 @@ public class Click extends Activity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Click.this, "Listened!", Toast.LENGTH_LONG).show();
+                Toast.makeText(ClickActivity.this, "Listened!", Toast.LENGTH_LONG).show();
             }
         });
     }
